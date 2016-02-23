@@ -1,23 +1,47 @@
-# SyntaxHighlighter [![Gittip](http://img.shields.io/gittip/alexgorbatchev.png)](https://www.gittip.com/alexgorbatchev/)
+# SyntaxHighlighter v4
 
-SyntaxHighlighter is THE client side highlighter for the web and apps! It's been around since
-2004 and it's used virtually everywhere to seamlessly highlight code for presentation.
+[![GratiPay](https://img.shields.io/gratipay/user/alexgorbatchev.svg)](https://gratipay.com/alexgorbatchev/)
+[![Build Status](https://travis-ci.org/syntaxhighlighter/theme-swift.svg)](https://travis-ci.org/syntaxhighlighter/syntaxhighlighter)
+![Downloads](https://img.shields.io/npm/dm/syntaxhighlighter.svg)
+![Version](https://img.shields.io/npm/v/syntaxhighlighter.svg)
 
-The latest doc is currently located at [alexgorbatchev.com/SyntaxHighlighter](http://alexgorbatchev.com/SyntaxHighlighter/)
+SyntaxHighlighter is THE client side highlighter for the web and web-apps! It's been around since 2004 and it's used virtually everywhere to seamlessly highlight code for presentation purposes.
 
-# Building
+<img src="screenshot.png" width="640"/>
 
-1. Have node.js v0.10 or higher
-1. From the source folder run `npm install`
-1. Then `./node_modules/.bin/bower install` to download dependencies
-1. Then `./node_modules/.bin/grunt build` to build
-1. Look in the `pkg` folder for results!
+The history of this project predates majority of the common web technologies and it has been a challenge to dedicate time and effort to keep it up to date. Everything used to be in one file and assign `window` variables... Horrors!
 
-# Testing
+SyntaxHighlighter is currently used and has been used in the past by Microsoft, Apache, Mozilla, Yahoo, Wordpress, Bug Labs, Freshbooks and many many other companies and blogs.
 
-Testing is something that is still inherited from ages ago and is currently using QUnit. To test the project, it's a two step process:
+## :zap: Reporting an issue? See [Filing Issues]. :zap:
 
-1. Start HTTP server `./node_modules/.bin/grunt test`
-1. Open browser on `http://localhost:3000` and go from there
+## Get Started
 
-# Please see the [dev](https://github.com/alexgorbatchev/SyntaxHighlighter/tree/dev) branch
+* [Building] instructions
+* [Usage] instructions
+* Be sure to read the [Caveats]
+
+## FAQ
+
+* v4 is fully compatible with old brushes and themes, see [Building] instructions.
+* The `?` was completely removed for cleaner, more seamless experience.
+* You still have to HTML escape `<` when using `<pre/>` tags.
+
+## Older Version
+
+If you are looking for v3 documentation and download, you can find it on the [old site](alexgorbatchev.com/SyntaxHighlighter).
+
+# Support
+
+As it always goes with open source, you are welcome to use SyntaxHighlighter free of charge. If you are using and enjoying my work, maybe you could buy me a beer (or if you don’t drink – a coffee and bagel will do just fine, a good kind of bagel though, you know… with wonderful stuff inside to make it glorious, like smoked salmon and creamcheese… not just butter).
+
+**Please [click here to donate via PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2930402) and just like they say on TV – give generously! It motivates me to keep working on this (12 years now and counting).**
+
+# License
+
+MIT
+
+[Filing Issues]: https://github.com/syntaxhighlighter/syntaxhighlighter/wiki/Filing-Issues
+[Building]: https://github.com/syntaxhighlighter/syntaxhighlighter/wiki/Building
+[Usage]: https://github.com/syntaxhighlighter/syntaxhighlighter/wiki/Usage
+[Caveats]: https://github.com/syntaxhighlighter/syntaxhighlighter/wiki/Caveats
